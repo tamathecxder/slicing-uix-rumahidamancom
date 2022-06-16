@@ -24,37 +24,56 @@
   <body>
     
     <!-- Navbar start -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100">
+      <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="./assets/img/rumahimpian-small-logo.png" class="d-inline-block align-text-top" alt="company logo">
+          <img src="./assets/img/rumahimpian-small-logo.png" class="d-inline-block align-text-top me-3" alt="company logo">
           Rumah Impian
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2">
               <a class="nav-link active" aria-current="page" href="#">Beranda</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="#">Layanan</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="#">Fitur</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="#">Kontak</a>
             </li>
           </ul>
           <div>
-            <button class="btn btn-outline-secondary text-uppercase">Daftar</button>
-            <button class="btn btn-success text-uppercase">Masuk</button>
+            <button class="button-secondary">Daftar</button>
+            <button class="button-primary">Masuk</button>
           </div>
         </div>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-md-6 hero-tagline my-auto">
+            <h1>Membantu Temukan Rumah Impian</h1>
+            <p><span class="fw-bold">Rumah Impian</span> hadir untuk temukan rumah
+              terbaik untukmu, dengan tujuan untuk dijual ataupun
+              disewa dengan sumber terpercaya.</p>
+
+              <button class="button-lg-primary">Temukan Rumah</button>
+          </div>
+        </div>
+
+        <img src="./assets/img/masking-rumah.png" class="position-absolute bottom-0 end-0 img-hero" alt="hero-image">
+        <img src="./assets/img/accent.png" class="position-absolute top-0 start-0 h-100 img-accent" alt="accent">
+      </div>
+    </section>
 
 
 

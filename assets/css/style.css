@@ -60,3 +60,47 @@ body {
   color: #fff;
 }
 
+
+/* Hero Style */
+
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-tagline h1 {
+  font-size: 50px;
+  line-height: 72px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hero-tagline p {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 278px;
+  height: 62px;
+  color: var(--pr-color);
+  background-color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.img-hero {
+  height: 100%;
+  z-index: 1;
+}
+
+.img-accent {
+  z-index: 1;
+}

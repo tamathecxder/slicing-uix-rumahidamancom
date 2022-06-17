@@ -110,7 +110,7 @@ body {
   padding: 100px 0;
 }
 
-h2 {
+#layanan h2 {
   font-size: 48px;
   font-weight: 600;
   color: var(--main-color);
@@ -158,3 +158,29 @@ h2 {
   background-color: #fff;
   border: 2px solid var(--main-color);
 }
+
+
+/* Search style */
+
+#search {
+  background-image: url('../img/green-interior.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: #fff;
+}
+
+#search p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: #fff;
+} 

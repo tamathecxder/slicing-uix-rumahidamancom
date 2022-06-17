@@ -184,3 +184,21 @@ body {
   letter-spacing: 0em;
   color: #fff;
 } 
+
+.search-input {
+  height: 80px;
+}
+
+.search-input:focus {
+  border: none;
+}
+
+.search-input .button-dropdown-search {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 500;
+  width: 200px;
+  height: 80px;
+  border: none;
+  color: var(--main-color);
+}

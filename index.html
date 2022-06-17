@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="col-10 mx-auto">
-        <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
             <button class="nav-link active" id="jual-tab" data-bs-toggle="tab" data-bs-target="#jual" type="button" role="tab" aria-controls="jual" aria-selected="true">Jual</button>
           </li>
@@ -145,11 +145,19 @@
           <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="jual-tab">
 
             <!-- Dropdown Jual -->
-            <div class="input-group mb-3">
-              <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="input-group mb-3 search-input">
+              <button class="button-dropdown-search dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="./assets/img/tipe-rumah.png" alt="icon-tipe-rumah"> Tipe Rumah
               </button>
-              <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+
+              <button class="button-dropdown-search dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <img src="./assets/img/range-harga.png" alt="icon-range-harga"> Range Harga
               </button>
               <ul class="dropdown-menu">
@@ -159,6 +167,7 @@
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Separated link</a></li>
               </ul>
+              
               <input type="text" class="form-control" placeholder="cari berdasarkan lokasi, ID atau property" aria-label="Text input with dropdown button">
               <button type="button" class="btn btn-success">Cari</button>
             </div>

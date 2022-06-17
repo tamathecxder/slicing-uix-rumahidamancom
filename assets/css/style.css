@@ -231,3 +231,17 @@ body {
   border-radius: 9px 0 0 0;
   font-weight: 500;
 }
+
+/* Rekomendasi Style */
+
+#rekomendasi h2 {
+  color: var(--main-color);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#rekomendasi .keterangan-rekomendasi p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}

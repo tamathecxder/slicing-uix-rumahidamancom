@@ -106,6 +106,7 @@ body {
 }
 
 /* Layanan Kami style */
+
 #layanan {
   padding: 100px 0;
 }
@@ -316,5 +317,13 @@ body {
 }
 
 
+/* Fitur Style */
+#fitur {
+  padding: 100px 0;
+}
 
-
+#fitur h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--main-color);
+}

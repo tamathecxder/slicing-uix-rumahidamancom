@@ -245,3 +245,35 @@ body {
   font-size: 20px;
   color: #000;
 }
+
+.card {
+  height: 465px;
+  border: none;
+}
+
+.card .text-keterangan-rumah {
+  display: block;
+  margin-top: -15px;
+  font-weight: 700;
+}
+
+.card-body h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  line-height: .9rem;
+}
+
+.card-body p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+}
+
+.card:hover {
+  background: linear-gradient(170deg, var(--main-color), #007245, rgba(0, 0, 0, 0.965));
+}
+
+.card:hover .card-body {
+  color: #fff;
+}

@@ -201,4 +201,33 @@ body {
   height: 80px;
   border: none;
   color: var(--main-color);
+  border-radius: 0 0 0 10px;
+}
+
+.search-input .button-search {
+  width: 100px;
+  height: 80px;
+  color: #fff;
+  background-color: var(--main-color);
+  border: none;
+}
+
+.nav.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 0 0 0 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  text-transform: none;
+  font-size: 14px;
+  border: none;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--main-color);
+  border-radius: 9px 0 0 0;
+  font-weight: 500;
 }

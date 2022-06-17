@@ -147,3 +147,14 @@ h2 {
   transition: all .1s ease-in;
 }
 
+.card-layanan:hover {
+  background: linear-gradient(160deg, var(--main-color), rgb(15, 15, 15));
+  color: #fff;
+  transition: all .2s ease-in;
+}
+
+/* // when hovering over the card, the circle will change color */
+.card-layanan:hover .circle-layanan {
+  background-color: #fff;
+  border: 2px solid var(--main-color);
+}

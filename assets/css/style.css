@@ -459,3 +459,46 @@ body {
   font-size: 16px;
   line-height: 18px;
 }
+
+.card-kontak {
+  width: 100%;
+  height: 480px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 68px 48px;
+}
+
+.card-kontak h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-kontak .form-control {
+  background-color: #cacaca;
+  border: none;
+  height: 70px !important;
+  border-radius: 0;
+}
+
+.card-kontak .form-floating label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #4E4E4E;
+  display: flex;
+  align-items: center;
+}
+
+.button-kontak {
+  background-color: var(--main-color);
+  width: 100%;
+  height: 70px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 18px;
+  color: #fff;
+}

@@ -240,7 +240,7 @@ body {
 /* Rekomendasi Style */
 
 #rekomendasi {
-  padding: 100px 0;
+  padding: 80px 0 0 0;
 }
 
 #rekomendasi h2 {
@@ -319,11 +319,21 @@ body {
 
 /* Fitur Style */
 #fitur {
-  padding: 100px 0;
+  padding: 80px 0 80px 0;
 }
 
 #fitur h2 {
   font-size: 48px;
   font-weight: 600;
   color: var(--main-color);
+}
+
+#fitur .button-fitur {
+  width: 226px;
+  height: 60px;
+  background-color: var(--main-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
 }

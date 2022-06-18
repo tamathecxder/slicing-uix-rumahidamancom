@@ -401,3 +401,9 @@ body {
   border-radius: 50%;
   border: none;
 }
+
+/* Kontak style */
+
+#kontak {
+  padding: 80px 0 80px 0;
+}

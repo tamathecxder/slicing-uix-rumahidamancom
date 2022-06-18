@@ -25,7 +25,12 @@ body {
 
 /* Navbar Color */
 .nav-color {
-  background-color: #0e8e5b;
+  background-color: #128356;
+  transition: background-color ease-in-out 0.4s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.4s;
 }
 
 .navbar-brand {

@@ -427,7 +427,7 @@ body {
   color: #fff;
 }
 
-.info-kontak h6 {
+#kontak h6 {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
@@ -442,4 +442,20 @@ body {
   line-height: 18px;
   margin-left: 20px;
   width: 310px;
+}
+
+.info-sosial-media a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 18px;
+  width: 310px;
+}
+
+.info-sosial-media .link-sosmed {
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
 }

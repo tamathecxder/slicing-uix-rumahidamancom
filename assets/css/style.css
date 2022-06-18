@@ -23,6 +23,11 @@ body {
   padding-top: 25px;
 }
 
+/* Navbar Color */
+.nav-color {
+  background-color: #0e8e5b;
+}
+
 .navbar-brand {
   font-weight: 700;
   font-size: 20px;

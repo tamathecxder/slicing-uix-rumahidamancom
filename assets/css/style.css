@@ -385,3 +385,19 @@ body {
   width: 100%;
   text-align: center;
 }
+
+.button-arrow-start {
+  width: 70px;
+  height: 70px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  border: none;
+}
+
+.button-arrow-end {
+  width: 70px;
+  height: 70px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  border: none;
+}

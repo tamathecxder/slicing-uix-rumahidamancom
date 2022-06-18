@@ -337,3 +337,31 @@ body {
   font-size: 20px;
   border: none;
 }
+
+.card-fitur h5 {
+  font-size: 34px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.card-fitur span {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.card-fitur h6 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.card-fitur button {
+  border: none;
+  width: 150px;
+  height: 45px;
+  background-color: var(--main-color);
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}

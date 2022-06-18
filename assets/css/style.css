@@ -405,5 +405,41 @@ body {
 /* Kontak style */
 
 #kontak {
+  margin-top: 80px;
+  background-image: url(../img/bg-image-interior.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#kontak .container {
   padding: 80px 0 80px 0;
+}
+
+#kontak .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#kontak h3 {
+  line-height: 60px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
+
+.info-kontak h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin: 16px 0 14px 0;
+}
+
+.info-kontak a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 18px;
+  margin-left: 20px;
+  width: 310px;
 }

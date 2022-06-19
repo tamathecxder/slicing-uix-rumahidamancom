@@ -5,7 +5,7 @@
   }
 
   .img-hero {
-    width: 65%;
+    width: 70%;
     height: auto;
   }
 
@@ -14,7 +14,6 @@
     font-size: 1.080rem;
   }
 
-   
   .search-input .button-dropdown-search {
     font-size: 14px;
     width: 140px;
@@ -39,6 +38,11 @@
 
   .card-layanan {
     margin: 20px 0;
+  }
+
+  #fitur .button-fitur {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 

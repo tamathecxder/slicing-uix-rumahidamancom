@@ -16,13 +16,15 @@
   }
 
   .search-input .button-dropdown-search {
-    font-size: 14px;
-    width: 140px;
-    font-size: 12px;
+    font-size: 13px;
+    border-radius: 0 0 0 0;
+    display: block;
+    width: 20%;
   }
 
   .search-input .button-dropdown-search img {
-    width: 20px;
+    width: 24px;
+    background-size: cover;
   }
 
   .search-input .form-control {
@@ -30,11 +32,21 @@
   }
 
   .search-input input::placeholder {
-    font-size: 14px;
+    font-size: 15px;
   }
 
-  .button-search {
-    width: 20% !important;
+  .search-input .button-search {
+    width: 100%;
+    display: block;
+  }
+
+  .search-input .button-search img {
+    width: 38px;
+    background-size: cover;
+  }
+
+  .nav-tabs .nav-link.active {
+    border-radius: 0 0 0 0;
   }
 
   .card-layanan {

@@ -1,8 +1,8 @@
-@media screen and (max-width: 922px) {
-
+@media screen and (max-width: 1024px) {
+  
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .hero-tagline h1 {
     line-height: 52px;
   }
@@ -42,9 +42,18 @@
     font-size: 18px;
     line-height: 26px;
   } 
+
   
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 480px) {
+  #search h2 {
+    font-weight: 600;
+    line-height: 48px;
+  }
 
+  #search p {
+    font-size: 16px;
+    line-height: 24px;
+  } 
 }

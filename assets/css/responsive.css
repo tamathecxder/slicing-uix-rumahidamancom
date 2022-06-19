@@ -1,5 +1,5 @@
 @media screen and (max-width: 1024px) {
-  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -43,6 +43,30 @@
     line-height: 26px;
   } 
 
+  .search-input .button-dropdown-search {
+    font-size: 14px;
+    width: 50%;
+    height: 60px;
+    border-radius: 0 0 0 0;
+  }
+
+  .search-input .button-search {
+    width: 25%;
+    height: 60px;
+  }
+
+  .search-input .button-search img {
+    width: 30px;
+  }
+
+  .search-input .form-control {
+    height: 60px;
+    border: none;
+  }
+
+  .search-input input::placeholder {
+    font-size: 13px;
+  }
   
 }
 

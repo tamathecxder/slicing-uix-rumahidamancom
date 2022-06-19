@@ -178,7 +178,7 @@ body {
 /* Search style */
 
 #search {
-  background-image: url('../img/green-interior.png');
+  background-image: url("../img/green-interior.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -416,7 +416,7 @@ body {
 
 #kontak {
   margin-top: 80px;
-  background-image: url(../img/bg-image-interior.png);
+  background-image: url("../img/bg-image-interior.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 110vh;

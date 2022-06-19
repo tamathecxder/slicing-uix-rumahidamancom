@@ -21,7 +21,26 @@
     padding: 0.5rem 1rem;
   }
 
-  
+  h2 {
+    font-size: 38px !important;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+
+  .card-layanan {
+    margin: 20px 0;
+  }
+
+  #search h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    color: #fff;
+  }
+
 }
 
 @media screen and (max-width: 350px) {

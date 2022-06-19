@@ -34,13 +34,15 @@
   }
 
   #search h2 {
-    font-size: 48px;
     font-weight: 600;
-    line-height: 72px;
-    letter-spacing: 0em;
-    color: #fff;
+    line-height: 50px;
   }
 
+  #search p {
+    font-size: 18px;
+    line-height: 26px;
+  } 
+  
 }
 
 @media screen and (max-width: 350px) {

@@ -13,6 +13,33 @@
     width: 80%;
     font-size: 1.080rem;
   }
+
+   
+  .search-input .button-dropdown-search {
+    font-size: 14px;
+    width: 140px;
+    font-size: 12px;
+  }
+
+  .search-input .button-dropdown-search img {
+    width: 20px;
+  }
+
+  .search-input .form-control {
+    border: none;
+  }
+
+  .search-input input::placeholder {
+    font-size: 14px;
+  }
+
+  .button-search {
+    width: 20% !important;
+  }
+
+  .card-layanan {
+    margin: 20px 0;
+  }
 }
 
 @media screen and (max-width: 768px) {

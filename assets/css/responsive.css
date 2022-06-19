@@ -3,7 +3,25 @@
 }
 
 @media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
 
+  .hero-tagline p {
+    margin-bottom: 40px;
+  }
+  
+  .img-hero {
+    height: auto;
+    width: 75%;
+  }
+
+  .button-lg-primary {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  
 }
 
 @media screen and (max-width: 350px) {

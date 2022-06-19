@@ -1,3 +1,4 @@
+/* Laptop, desktop */
 @media screen and (max-width: 1024px) {
   .hero-tagline h1 {
     font-size: 42px;
@@ -66,8 +67,13 @@
     font-size: 14px;
     line-height: 18px;
   }
+
+  footer .col-md-5 a {
+    font-size: 16px;
+  }
 }
 
+/* Normal Smartphone, tablet, notebook */
 @media screen and (max-width: 768px) {
   .hero-tagline h1 {
     line-height: 52px;
@@ -153,6 +159,7 @@
   }
 }
 
+/* Small Smartphone */
 @media screen and (max-width: 480px) {
   #search h2 {
     font-weight: 600;
@@ -163,4 +170,8 @@
     font-size: 16px;
     line-height: 24px;
   } 
+
+  footer {
+    height: 400px;
+  }
 }

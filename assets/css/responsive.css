@@ -1,5 +1,18 @@
 @media screen and (max-width: 1024px) {
+  .hero-tagline h1 {
+    font-size: 42px;
+    line-height: 50px;
+  }
 
+  .img-hero {
+    width: 65%;
+    height: auto;
+  }
+
+  .button-lg-primary {
+    width: 80%;
+    font-size: 1.080rem;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -44,6 +44,28 @@
     width: 100%;
     margin-bottom: 20px;
   }
+
+  #kontak h3 {
+    line-height: 50px;
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .card-kontak {
+    width: 100%;
+    height: auto;
+    padding: 68px 28px;
+  }
+  
+  .card-kontak h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .card-kontak .form-floating label {
+    font-size: 14px;
+    line-height: 18px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -111,7 +133,24 @@
   .search-input input::placeholder {
     font-size: 13px;
   }
+
+  #kontak {
+    margin-top: 80px;
+    height: 134vh;
+  }
   
+  .card-kontak {
+    margin-top: 32px;
+    height: 480px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 68px 48px;
+  }
+
+  .card-kontak .form-floating label {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 
 @media screen and (max-width: 480px) {
